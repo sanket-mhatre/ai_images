@@ -4,7 +4,7 @@ import json
 import replicate
 import os
 
-openai.api_key = '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'
+openai.api_key = '*******'
 
 def gpt3prompt(text,key):
     prompts = {
@@ -85,7 +85,7 @@ image_presets = [
     " Detailed, concept art, digital painting, anime, manga, animecore, high quality",
 ]
 
-filename = "/Users/sanket/Downloads/Ep 1 - A windfall from thin air.docx"
+filename = "/Users/sanket/Downloads/Ep 1 -  Prodigal Son.docx"
 markdown_file = "/Users/sanket/code/nlp/the_rich_and_reckless_husband.md"
 
 input_file = docx.Document(filename)
